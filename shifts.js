@@ -9,4 +9,4 @@ function calculatePay(hours, rate) {
   return Math.round(regularHours * rate + overtimeHours * rate * OVERTIME_MULTIPLIER);
 }
 
-module.exports = { isValidShift, calculatePay };d
+module.exports = { isValidShift, calculatePay };
